@@ -1,0 +1,130 @@
+.footer{
+    margin: 0;
+    background-color: rgba(197,196,196,255);
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 280px 280px 350px;
+}
+
+
+.img-part,
+.kontakt-part,
+.udaje-part{
+    font-size: 17px;
+}
+
+
+.kontakt-part{
+    padding-top: 55px;
+}
+
+.img-part{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.udaje-part p,
+.telefonni-cisla p,
+.adresa p{
+    margin: 0;
+}
+
+
+.img-part img{
+    width: 250px;
+}
+
+.kontakt-part img{
+    width: 23px;
+    
+}
+
+.kontakt-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.telefon,
+.email,
+.adresa{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+
+.telefonni-cisla{
+    display: flex;
+    flex-direction: column;
+}
+
+.telefonni-cisla a,
+.telefonni-cisla p,
+.email a,
+.adresa p{
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    padding: 2px 5px;
+    transition: 0.5s;
+}
+
+.telefonni-cisla a,
+.email a,
+.adresa p{
+    font-weight: 500;
+
+}
+
+.udaje-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.udaje-part p{
+    margin-bottom: 10px;
+
+}
+
+
+.telefonni-cisla a:hover,
+.email a:hover{
+    background-color: rgb(239, 62, 35);
+    box-shadow: 0px 2px 10px rgb(239, 62, 35);
+    border-radius: 10px;
+    color: white;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:900px){
+    .footer{
+        width: 100%;
+        padding-top: 20px;
+        height: 250px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .kontakt-part{
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .udaje-part{
+        display: grid;
+        grid-template-columns: 100px 200px;
+        justify-content: center;
+        padding-left: 60px;
+    }
+
+}
