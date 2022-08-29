@@ -13,6 +13,7 @@
     height: 60px;
     margin-top: 7px;
     background-color: rgba(255, 255, 255, 0.3);
+    z-index: 100;
 }
 
 .logo-menu{
@@ -104,6 +105,7 @@
         width: 100%;
         transform: translatey(-120%);
         transition: 0.5s;
+        
     }
 
     .right-nav a{
