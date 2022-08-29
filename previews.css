@@ -44,12 +44,8 @@
     text-decoration: none;
     font-size: 18px;
     color: rgb(239, 62, 35);
-    font-family: inherit;
-    font-weight: 800;
+    font-weight: bold;
     cursor: pointer;
-    position: relative;
-    border: none;
-    background: none;
     text-transform: uppercase;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
@@ -71,7 +67,6 @@
 
 .button-info:after {
     content: "";
-    pointer-events: none;
     bottom: -2px;
     left: 50%;
     position: absolute;
@@ -129,9 +124,8 @@
 }
 
 .grid-style3:hover{
-    box-shadow: 0 0 30px rgba(239, 62, 35, 0.3);
+    box-shadow: 0 0 30px rgba(239, 62, 35, 0.5);
     scale: 1.005;
-    z-index: 100;
 }
 
 .style3 h2 {
