@@ -1,10 +1,11 @@
 .footer{
     margin: 0;
     background-color: rgba(197,196,196,255);
-    height: 250px;
+    height: 230px;
     display: grid;
     justify-content: center;
     grid-template-columns: 280px 280px 350px;
+
 }
 
 
@@ -105,12 +106,12 @@
 @media screen and (max-width:900px){
     .footer{
         width: 100%;
-        padding-top: 20px;
-        height: 250px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        height: auto;
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr;
-        height: auto;
     }
 
     .kontakt-part{
