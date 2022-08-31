@@ -55,7 +55,7 @@
     transition: 0.5s;
 }
 
-.button-info:hover{
+.button-info:hover {
     scale: 1.1;
 
 }
@@ -82,7 +82,7 @@
 /*tlačítko č2 */
 
 
-.my-btn{
+.my-btn {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -95,11 +95,11 @@
     margin-top: 7%;
 }
 
-.my-btn:hover{
+.my-btn:hover {
     scale: 1.1;
     color: white;
     background-color: rgb(239, 62, 35);
-    
+
 }
 
 
@@ -113,8 +113,8 @@
         grid-template-columns: 1fr;
 
     }
-    .previews-grid{
-        margin: 0;
+
+    .previews-grid {
         margin: 40px 30px;
     }
 }
@@ -127,16 +127,23 @@
         margin: auto;
         margin-top: 25px;
         margin-bottom: 25px;
-        width: 85%;
+        width: 80%;
 
     }
 
     .article-img {
-        height: 250px;
+        max-width: 100%;
 
     }
 
-    .more-info{
+    .article-img img {
+        width: auto;
+        height: 120%;
+        overflow-y: auto;
+        
+    }
+
+    .more-info {
         margin-top: 20px;
 
     }
@@ -153,7 +160,7 @@
 
 }
 
-.grid-style3:hover{
+.grid-style3:hover {
     box-shadow: 0 0 30px rgba(239, 62, 35, 0.5);
     scale: 1.005;
 }
@@ -162,5 +169,3 @@
     text-decoration: underline rgba(239, 62, 35, 0.8);
     margin-top: 8px;
 }
-
-
